@@ -79,29 +79,5 @@
 
       <input type="submit" value="Submit">
     </form>
-    <script>
-      // Function to handle form submission
-      function submitForm(event) {
-        event.preventDefault(); // Prevent form submission to server
-        const name = document.getElementById("name").value;
-        const dob = document.getElementById("dob").value;
-        const gender = document.getElementById("gender").value;
-        const email = document.getElementById("email").value;
-        const phone = document.getElementById("phone").value;
-
-        console.log("Name: " + name);
-        console.log("Date of Birth: " + dob);
-        console.log("Gender: " + gender);
-        console.log("Email: " + email);
-        console.log("Phone: " + phone);
-
-        // Add your own code to handle the form data here
-      }
-
-      // Attach submitForm function to form's submit event
-      const form = document.querySelector("form");
-      form.addEventListener("submit", submitForm);
-    </script>
-  </body>
+     </body>
 </html>
-
